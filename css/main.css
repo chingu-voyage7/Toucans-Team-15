@@ -1,0 +1,51 @@
+:root {
+    --font-color:#B5A7C8; /*#24292E  ;*/
+      --bg-color:#f8f9fa;
+      --main-color:#C1B1CC ;
+      --black: #24292E;    
+  }
+
+
+.center{
+    text-align: center;
+}
+
+body section, body nav{
+     font-family: ubuntu;     
+       }
+
+  
+
+.bg-image{
+    background: url('../pictures/tuncanTest.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    height: 70vh;    
+}
+
+
+.empty-vertical-space1{    height: 32vh;}
+.empty-vertical-space2{    height: 16vh;}
+.empty-vertical-space3{    height: 8vh;}
+.empty-vertical-space4{    height: 4vh;}
+
+footer{
+    text-align: right; 
+    padding-right: 1em;
+    padding-bottom: 0.5em; 
+    font-size:  x-small;  
+
+}
+
+footer, section#contact-section{
+    background-color:var(--black);
+    
+}
+
+footer, section#contact-section a{
+color:var(--bg-color);
+}
+  
+
