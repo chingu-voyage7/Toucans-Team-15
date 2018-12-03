@@ -2,9 +2,32 @@
     --font-color:#B5A7C8; /*#24292E  ;*/
       --bg-color:#f8f9fa;
       --main-color:#C1B1CC ;
-      --black: #24292E;    
+      --black: #24292E;
+      --blue: #c9e6ee;    
   }
 
+.navbar {
+      background-color: #ffffff;      
+      width: 100%;
+      height: 60px;
+      padding-bottom: 200px;
+      top: 0;
+}
+ 
+.navbar a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+li a{
+    color: #ffffff;
+}
+
+h1, p {
+    padding: 0px 5px 5px 0px;
+}
+  
 
 .center{
     text-align: center;
@@ -12,19 +35,16 @@
 
 body section, body nav{
      font-family: ubuntu;     
-       }
-
-  
-
-.bg-image{
-    background: url('../pictures/tuncanTest.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
-    height: 70vh;    
 }
 
+.bg-image{
+    background: url('../pictures/social_dashboard_k3pt.svg') no-repeat right fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;  
+    height: 100vh;    
+}
 
 .empty-vertical-space1{    height: 32vh;}
 .empty-vertical-space2{    height: 16vh;}
@@ -40,12 +60,12 @@ footer{
 }
 
 footer, section#contact-section{
-    background-color:var(--black);
+    background-color:#c9e6ee;
     
 }
 
 footer, section#contact-section a{
-color:var(--bg-color);
+color:var(--black);
 }
   
 
