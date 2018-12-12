@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href=" https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Mukta+Mahee|Nova+Mono|Oswald|Quicksand|Roboto" rel="stylesheet">
@@ -19,10 +19,9 @@
 
 <body cz-shortcut-listen="true">
         <!-- Navigation -->
-        <div class="bg-image">
-             <nav class="navbar navbar-expand-sm navbar-light static-top">
+    <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="pictures/toucan.svg" alt="Toucan" style="width:50px;height:50px;"></a>
+        <a class="navbar-brand" href="#"><img src="pictures/toucan-final.svg" alt="Toucan" style="width:110px;height:110px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
 data-target="#navbarResponsive" aria-controls="navbarResponsive" 
 aria-expanded="false" aria-label="Toggle navigation">
@@ -31,34 +30,36 @@ aria-expanded="false" aria-label="Toggle navigation">
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a href="#about-section" class="nav-link">
-                                    About
-                                    <span class="sr-only">(current)</span>
-                                </a>
+                                <a href="#features-section" class="nav-link">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#project-section"> Success Stories</a>
+                                <a class="nav-link" href="#why-section"> Why Toucan?</a>
                             </li>
-               <li class="nav-item">
+                                <li class="nav-item">
                                 <a class="nav-link" href="#the-team-section"> The Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact-section"> Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-primary my-2 my-sm-0" type="submit">Get Started</button>
                             </li>
                         </ul>
         </div>
       </div>
     </nav>
 
+    <div class="bg-image">
+
 <div class="empty-vertical-space2"></div>
             <section id="head-section">
                 <div class="container">
                     <div class="row">
                         <div id="heading" class="col-12 text-left">   
-                                <h1 data-heading="savvas">Toucans <br>Online Marketing</h1>                                          <br>
-                                <h4>All your Online Marketing needs and <br>processes fully automated.</h4>
-                                <button type="button" class="btn btn-outline-info">Learn More</button>
-                                <button type="button" class="btn btn-success" style="margin:20px">Sign Up</button>
+                                <h1 data-heading="savvas" class="display-4">Toucan Online Marketing</h1>                                          <br>
+                                <h4 class="lead">Fully automate all your online marketing needs, <br>processes and more!</h4>
+                                <button type="button" class="btn btn-outline-success">Learn More</button>
+                                <button type="button" class="btn btn-primary" style="margin:20px">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -66,77 +67,112 @@ aria-expanded="false" aria-label="Toggle navigation">
             
         </div>
 
-        <section id="about-section">            
+        <section id="features-section">            
         <div class="empty-vertical-space3"></div>            
-            <div class="container">
-               <div class="row justify-content-center">
-                    <div class="text-center col-sm-12 col-lg-8">
-                            <i class="em em-wave"></i> 
-                            <br>
-                        Bacon ipsum dolor amet corned beef bacon beef ribs turkey drumstick leberkas kielbasa pork shoulder meatloaf kevin frankfurter. Beef chuck corned beef pancetta capicola pork chop turkey pork loin tenderloin burgdoggen tri-tip pork belly. Spare ribs hamburger brisket t-bone andouille. Meatloaf pork loin turkey beef ribs porchetta capicola rump doner turducken picanha pig fatback burgdoggen kevin ground round. Beef venison drumstick boudin jowl rump.                   
-                    </div>
-                </div>
-            </div>            
-        <div class="empty-vertical-space3"></div>
-        </section>        
-
-        <section id="project-section">            
-        <div class="empty-vertical-space3"></div>
-            <div class="container">
+            <div class="container text-center">
+                <h5 class="display-4">Features</h5>
+                <p class="lead">Everything you need to turn your new sign-ups into active customers.</p>
+                
                 <div class="row">
-                        <div class="col-12 text-center">
-                                <h3>Success Stories</h3>
-                </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="center col-6 col-lg-3">
-                        <div class="card mt-3">
-                                <a href=#>
-                                     <img class="card-img-top" alt="" 
-                                          src="">
-                                     </a>
-                            <div>
-                                <p>
-                                    <a href=#>
-                                        narrative </a>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col">
+                        <img class="card-img-top" src="pictures/metrica.svg" alt="section one" style="height:30px;width:30px;margin-top:30px;">
+                        <p class="font-weight-bold">Metrics & Goals</p> 
+                        <p class="font-weight-light" style="margin-top:-20px; margin-bottom: 50px;">Track opens and clicks, and see live goal conversions.</p>
+
+                        <img class="card-img-top" src="pictures/smiling mail.svg" alt="section one" style="height:30px;width:30px;">
+                        <p class="font-weight-bold">Auto Messaging</p> 
+                        <p class="font-weight-light" style="margin-top:-20px">Send targeted messages based on user activity and interest.</p>
                     </div>
-                 <div class="center col-6 col-lg-3">
-                        <div class="card mt-3">
-                                <a href=#>
-                                     <img class="card-img-top" alt="" 
-                                          src="">
-                                     </a>
-                            <div>
-                                <p>
-                                    <a href=#>
-                                        narrative </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="center col-6 col-lg-3">
-                        <div class="card mt-3">
-                                <a href=#>
-                                     <img class="card-img-top" alt="" 
-                                          src="">
-                                     </a>
-                            <div>
-                                <p>
-                                    <a href=#>
-                                        narrative </a>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col">
+                        <img class="card-img-top" src="pictures/team-inbox.svg" alt="section one" style="height:30px;width:30px;margin-top:30px;">
+                        <p class="font-weight-bold">Follow-Up</p> 
+                        <p class="font-weight-light" style="margin-top:-20px; margin-bottom: 50px;">Re-engage users with automated & one-off messages.</p>
+
+                        <img class="card-img-top" src="pictures/in-app messaging.svg" alt="section one" style="height:30px;width:30px;">
+                        <p class="font-weight-bold">In-App Messaging</p> 
+                        <p class="font-weight-light" style="margin-top:-20px">Message users inside your web and mobile apps.</p>
                     </div>
                 </div>
             </div>            
         <div class="empty-vertical-space2"></div>
-        </section>
+        </section>        
 
-        
+        <div class="jumbotron">
+            <section id="why-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h5 class="display-4">Why Toucan?</h5>
+                            <p class="lead">The Toucan process that makes the difference.</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="card border-0 shadow p-3 mb-5 bg-white rounded" style="width:30%;">
+                            <img class="card-img-top" src="pictures/email campaign.svg" alt="section one">
+                            <div class="card-body">
+                                <h5 class="card-title center">DELIVERABILITY</h5>
+                                <p class="card-text center">Deliverability and proactive outreach to ensure optimal inbox delivery.</p>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 shadow p-3 mb-5 bg-white rounded" style="width:30%;">
+                            <img class="card-img-top" src="pictures/texting.svg" alt="section one">
+                            <div class="card-body">
+                                <h5 class="card-title center">GROWTH</h5>
+                                <p class="card-text center">A small startup or a fortune 500 company, Toucan takes care of your needs every step of the way.</p>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 shadow p-3 mb-5 bg-white rounded" style="width:30%;">
+                            <img class="card-img-top" src="pictures/group-chat.svg" alt="section one">
+                            <div class="card-body">
+                                <h5 class="card-title center">EXPERTISE</h5>
+                                <p class="card-text center">With Customer Success and Support Teams to give you the information and guidance you need, whenever you need it.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>            
+            </section>
+        </div>
+
+        <!-- Team section -->
+        <section id="the-team-section">
+        <div class="empty-vertical-space3"></div>
+        <h5 class="display-4 text-center">The Team</h5>
+        <div class="team" id="team">
+            <div class="container">
+                <div class="empty-vertical-space3"></div>
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-12 item">
+                        <img src="pictures/user.svg" class="img-fluid" alt="team" style="height: 250px">
+                        <div class="description">
+                            <p>Savvas</p>
+                            <p>COO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 item">
+                        <img src="pictures/user.svg" class="img-fluid" alt="team" style="height: 250px">
+                        <div class="description">
+                            <p>Nancy</p>
+                            <p>CMO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 item">
+                        <img src="pictures/user.svg" class="img-fluid" alt="team" style="height: 250px">
+                        <div class="description">
+                            <p>Abdulhafeez</p>
+                            <p>CTO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="empty-vertical-space3"></div>
+        </section>
+    
 
         <section id="contact-section">
                 <div class="empty-vertical-space3"></div>          

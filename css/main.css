@@ -7,11 +7,12 @@
   }
 
 .navbar {
-      background-color: #ffffff;      
+      background-color: white;      
       width: 100%;
-      height: 60px;
+      height: 70px;
       padding-bottom: 200px;
       top: 0;
+      box-shadow: 0px 0.06px #24292E;
 }
  
 .navbar a {
@@ -22,6 +23,11 @@
 
 li a{
     color: #ffffff;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+li a:hover {
+    font: bold;
 }
 
 h1, p {
@@ -34,22 +40,34 @@ h1, p {
 }
 
 body section, body nav{
-     font-family: ubuntu;     
+     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;     
 }
 
 .bg-image{
-    background: url('../pictures/social_dashboard_k3pt.svg') no-repeat right fixed; 
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;  
+    background: url('../pictures/social-dashboard.svg') no-repeat right fixed; 
+    -webkit-background-size: 50% 70%;
+    -moz-background-size: 50% 70%;
+    -o-background-size: 50% 70%;
+    background-size: 50% 70%;  
     height: 100vh;    
+    position: relative;
+
 }
 
 .empty-vertical-space1{    height: 32vh;}
-.empty-vertical-space2{    height: 16vh;}
+.empty-vertical-space2{    height: 20vh;}
 .empty-vertical-space3{    height: 8vh;}
 .empty-vertical-space4{    height: 4vh;}
+
+.card {
+    margin: 10px;
+    margin-top: 50px;
+    border: 0px 0px #ffffff;
+}
+
+.card:hover {
+    box-shadow: 30px 30px 30px black;
+}
 
 footer{
     text-align: right; 
