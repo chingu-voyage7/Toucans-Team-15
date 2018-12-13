@@ -85,5 +85,16 @@ footer, section#contact-section{
 footer, section#contact-section a{
 color:var(--black);
 }
-  
+
+.Tuncan-Email-Us{
+    width:15%;
+}
+
+#thankyoumessage{
+  display: none;  
+    color:#2AB7CA;
+    text-align: center;
+    margin-bottom: 4vh;
+    padding:2vh;
+}
 
