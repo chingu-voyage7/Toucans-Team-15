@@ -1,97 +1,104 @@
 :root {
-    --font-color:#B5A7C8; /*#24292E  ;*/
-      --bg-color:#f8f9fa;
-      --main-color:#C1B1CC ;
-      --black: #24292E;
-      --blue: #c9e6ee;    
-  }
+  --font-color: #b5a7c8; /*#24292E  ;*/
+  --bg-color: #f8f9fa;
+  --main-color: #c1b1cc;
+  --black: #24292e;
+  --blue: #c9e6ee;
+}
 
 .navbar {
-      background-color: white;      
-      width: 100%;
-      height: 70px;
-      padding-bottom: 200px;
-      top: 0;
-      box-shadow: 0px 0.06px #24292E;
-}
- 
-.navbar a {
-    display: block;
-    text-align: center;
-    font-size: 15px;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  padding-bottom: 200px;
+  top: 0;
+  box-shadow: 0px 0.06px #24292e;
 }
 
-li a{
-    color: #ffffff;
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.navbar a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+li a {
+  color: #ffffff;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 li a:hover {
-    font: bold;
+  font: bold;
 }
 
-h1, p {
-    padding: 0px 5px 5px 0px;
-}
-  
-
-.center{
-    text-align: center;
+h1,
+p {
+  padding: 0px 5px 5px 0px;
 }
 
-body section, body nav{
-     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;     
+.center {
+  text-align: center;
 }
 
-.bg-image{
-    background: url('../pictures/social-dashboard.svg') no-repeat right fixed; 
-    -webkit-background-size: 50% 70%;
-    -moz-background-size: 50% 70%;
-    -o-background-size: 50% 70%;
-    background-size: 50% 70%;  
-    height: 100vh;    
-    position: relative;
-
+body section,
+body nav {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-top: 70px;
 }
 
-.empty-vertical-space1{    height: 32vh;}
-.empty-vertical-space2{    height: 20vh;}
-.empty-vertical-space3{    height: 8vh;}
-.empty-vertical-space4{    height: 4vh;}
+.bg-image {
+  background: url("../pictures/social-dashboard.svg") no-repeat right fixed;
+  -webkit-background-size: 50% 70%;
+  -moz-background-size: 50% 70%;
+  -o-background-size: 50% 70%;
+  background-size: 50% 70%;
+  height: 100vh;
+  position: relative;
+}
+
+.empty-vertical-space1 {
+  height: 32vh;
+}
+.empty-vertical-space2 {
+  height: 20vh;
+}
+.empty-vertical-space3 {
+  height: 8vh;
+}
+.empty-vertical-space4 {
+  height: 4vh;
+}
 
 .card {
-    margin: 10px;
-    margin-top: 50px;
-    border: 0px 0px #ffffff;
+  margin: 10px;
+  margin-top: 50px;
+  border: 0px 0px #ffffff;
 }
 
 .card:hover {
-    box-shadow: 30px 30px 30px black;
+  box-shadow: 30px 30px 30px black;
 }
 
-footer{
-    text-align: right; 
-    padding-right: 1em;
-    padding-bottom: 0.5em; 
-    font-size:  x-small;  
-
+footer {
+  text-align: right;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  font-size: x-small;
 }
 
-footer, section#contact-section{
-    background-color:#c9e6ee;
-    
+footer,
+section#contact-section {
+  background-color: #c9e6ee;
 }
 
-footer, section#contact-section a{
-color:var(--black);
+footer,
+section#contact-section a {
+  color: var(--black);
 }
 
-
-#thankyoumessage{
-  display: none;  
-    color:#2AB7CA;
-    text-align: center;
-    margin-bottom: 4vh;
-    padding:2vh;
+#thankyoumessage {
+  display: none;
+  color: #2ab7ca;
+  text-align: center;
+  margin-bottom: 4vh;
+  padding: 2vh;
 }
-
