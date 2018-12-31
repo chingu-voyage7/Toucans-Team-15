@@ -14,8 +14,8 @@
   box-shadow: 0px 0.06px #24292e;
 }
 
-.btn-toucan{
-    background-color: aqua;
+.btn-toucan {
+  background-color: aqua;
 }
 
 .navbar a {
@@ -24,8 +24,8 @@
   font-size: 15px;
 }
 
-.navbar-brand img{    
-    width:150px;
+.navbar-brand img {
+  width: 150px;
 }
 
 li a {
@@ -84,6 +84,9 @@ body nav {
 .card:hover {
   box-shadow: 30px 30px 30px black;
 }
+.team img {
+  border-radius: 50%;
+}
 
 footer {
   text-align: right;
@@ -110,9 +113,8 @@ section#contact-section a {
   padding: 2vh;
 }
 
-
 @media only screen and (max-width: 575px) {
-    .navbar-brand img{    
-    width:110px;
-}
+  .navbar-brand img {
+    width: 110px;
+  }
 }
