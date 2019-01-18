@@ -58,6 +58,6 @@
         <path id="Path_16" data-name="Path 16" d="M181.738,340.326a7.5,7.5,0,0,1-7.5-7.5v-37.18a7.5,7.5,0,0,1,15,0v37.18A7.5,7.5,0,0,1,181.738,340.326Z"/>
       </g>
     </g>
-    <text id="toucan-2" data-name="toucan" class="cls-9" transform="translate(556 682)"><tspan x="0" y="0">toucan</tspan></text>
+   <!-- <text id="toucan-2" data-name="toucan" class="cls-9" transform="translate(556 682)"><tspan x="0" y="0">toucan</tspan></text>-->
   </g>
 </svg>
