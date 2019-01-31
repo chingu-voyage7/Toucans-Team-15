@@ -1,5 +1,6 @@
 :root {
-  --font-color: #b5a7c8; /*#24292E  ;*/
+  --font-color: #b5a7c8;
+  /*#24292E  ;*/
   --bg-color: #f8f9fa;
   --main-color: #c1b1cc;
   --black: #24292e;
@@ -65,12 +66,15 @@ body nav {
 .empty-vertical-space1 {
   height: 32vh;
 }
+
 .empty-vertical-space2 {
   height: 20vh;
 }
+
 .empty-vertical-space3 {
   height: 8vh;
 }
+
 .empty-vertical-space4 {
   height: 4vh;
 }
@@ -84,8 +88,10 @@ body nav {
 .card:hover {
   box-shadow: 30px 30px 30px black;
 }
+
 .team img {
   border-radius: 50%;
+  max-width: 100%;
 }
 
 footer {
